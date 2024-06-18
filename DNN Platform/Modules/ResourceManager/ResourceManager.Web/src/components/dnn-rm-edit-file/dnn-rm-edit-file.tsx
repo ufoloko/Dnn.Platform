@@ -127,8 +127,7 @@ export class DnnRmEditFile {
         </dnn-tabs>
         <div class="controls">
           <dnn-button
-            type="primary"
-            reversed
+            type="secondary"
             onClick={() => this.closeModal()}
           >
             {state.localization.Cancel}

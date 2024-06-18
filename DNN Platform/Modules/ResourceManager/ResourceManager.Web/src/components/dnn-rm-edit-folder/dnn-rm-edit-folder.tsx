@@ -264,6 +264,7 @@ export class DnnRmEditFolder {
         <h2>{state.localization?.Edit}</h2>
         <dnn-tabs>
           <dnn-tab tabTitle={state.localization?.General}>
+            
             <div class="general">
               <div class="left">
                 {this.folderIconUrl &&
@@ -306,7 +307,7 @@ export class DnnRmEditFolder {
           </dnn-tab>
           <dnn-tab tabTitle={state.localization?.Permissions}>
             {this.folderDetails && this.folderDetails.permissions && this.roleGroups && this.roles && 
-              <dnn-permissions-grid
+              <dnn-permissions-grid innerHTML='<div></div>'
                 permissions={this.folderDetails.permissions}
                 roleGroups={this.roleGroups}
                 roles={this.roles}
@@ -319,8 +320,7 @@ export class DnnRmEditFolder {
         </dnn-tabs>
         <div class="controls">
           <dnn-button
-            type="primary"
-            reversed
+            type="secondary"
             onClick={() => this.closeModal()}
           >
             {state.localization.Cancel}

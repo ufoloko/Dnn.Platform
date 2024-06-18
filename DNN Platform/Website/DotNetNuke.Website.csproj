@@ -3018,7 +3018,9 @@
     <Content Include="admin\Modules\App_LocalResources\Import.ascx.resx" />
     <Content Include="admin\Modules\App_LocalResources\ModuleLocalization.ascx.resx" />
     <Content Include="admin\Modules\App_LocalResources\ModulePermissions.ascx.resx" />
-    <Content Include="admin\Modules\App_LocalResources\ModuleSettings.ascx.resx" />
+    <Content Include="admin\Modules\App_LocalResources\ModuleSettings.ascx.resx">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="admin\Modules\App_LocalResources\ViewSource.ascx.resx" />
     <Content Include="admin\Portal\App_LocalResources\Privacy.ascx.resx" />
     <Content Include="admin\Portal\App_LocalResources\Terms.ascx.resx" />

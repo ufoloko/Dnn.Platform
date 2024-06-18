@@ -132,7 +132,7 @@ export class DnnRmActionsBar {
         </dnn-vertical-overflow-menu>
         <div class="right-controls">
           {state.selectedItems.length > 0 &&
-            <button onClick={() => state.selectedItems = []}>
+            <button class="items-count" onClick={() => state.selectedItems = []}>
               <span>
               {state.selectedItems.length} {state.localization.Items}
               </span>

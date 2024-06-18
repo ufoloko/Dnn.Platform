@@ -38,5 +38,18 @@
   margin-top: 2em;
   display: flex;
   justify-content: flex-end;
-  gap: 1em;
+  dnn-button{
+    margin: 1em;
+    &.primary{
+        --background-color: #1E88C3;
+        --padding: 10px;
+        --color: #fff;
+    }
+    &.secondary{
+        --background-color: #fff;
+        --border-color: #1E88C3;
+        --color: #1E88C3;
+        --padding: 10px;
+    }
+  }
 }

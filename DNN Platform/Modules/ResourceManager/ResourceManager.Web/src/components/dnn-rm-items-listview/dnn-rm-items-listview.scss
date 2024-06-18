@@ -10,22 +10,27 @@ table{
     font-weight: bold;
     tr{
       border-bottom: 2px solid lightgray;
+      background-color: #dadada;
+      td{
+        padding: 8px 5px;
+      }
     }
   }
   tbody{
     tr{
       border-bottom: 1px solid lightgray;
       transition: all 100ms ease-in-out;
-      &:hover, &:focus{
+      &:hover{
         background-color: #eee;
       }
       td{
+        padding: 5px;
         &.radio{
           opacity: 0;
           transition: all 100ms ease-in-out;
         }
         img{
-          height: 2.5em;
+          height: 1.2em;
           display: block;
           margin: 0 auto;
         }
@@ -33,11 +38,15 @@ table{
           display: flex;
           flex-direction: column;
         }
-        &.size{
-          text-align: right;
+      }
+      &:hover{
+        background: #eee;
+        td.radio{
+          opacity: 1;
         }
       }
-      &:hover, &:focus, &.selected{
+      &.selected{
+        background: #d7edf9;
         td.radio{
           opacity: 1;
         }

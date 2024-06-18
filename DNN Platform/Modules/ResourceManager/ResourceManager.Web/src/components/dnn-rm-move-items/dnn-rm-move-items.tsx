@@ -100,8 +100,7 @@ export class DnnRmMoveItems {
         }
         <div class="controls">
           <dnn-button
-            type="primary"
-            reversed
+            type="secondary"
             disabled={this.moving}
             onClick={() => this.closeModal()}
           >

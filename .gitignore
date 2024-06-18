@@ -148,3 +148,6 @@ yarn-error.log
 
 /DotNetNuke.Internal.SourceGenerators/bin/
 /DNN Platform/Tests/DotNetNuke.Tests.SourceGenerators/Snapshots/*.received.*
+/yarn.lock
+/Website
+/yarn.lock

@@ -1,10 +1,11 @@
 :host {
   display: flex;
   justify-content: flex-end;
-  background-color: var(--dnn-color-primary);
+  background-color: #0e2936;
   color: var(--dnn-color-primary-contrast);
-  padding: 0.5em 1em;
+  padding: 0.8em 1em;
   gap: 1em;
+  border-bottom: 1px solid #1e485e;
 }
 
 button{
@@ -18,5 +19,12 @@ button{
   cursor: pointer;
   svg{
     fill: var(--dnn-color-primary-contrast);
+  }
+}
+
+dnn-searchbox{
+  input{
+    border:none;
+    background-color: red!important;
   }
 }

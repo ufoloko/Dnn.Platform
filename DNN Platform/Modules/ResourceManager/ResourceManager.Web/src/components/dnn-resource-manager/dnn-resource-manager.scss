@@ -4,14 +4,14 @@
 }
 
 .container{
-  border: 1px solid lightgray;
   display:flex;
   flex-direction: column;
+  border-bottom: 1px solid #dadada;
   dnn-vertical-splitview{
     width: 100%;
     height: calc(100vh - 25rem);
     min-height: 30rem;
-    --left-pane-background-color: lightgray;
+    --left-pane-background-color: white;
     --right-pane-background-color: white;
     .splitter{
       display: flex;
@@ -50,6 +50,14 @@
       border: 0;
       background-color: transparent;
       cursor: pointer;
+      svg{
+        background-color: #dadada;
+        padding: 5px;
+        border-radius: 20px;
+        fill: #666;
+      }
     }
   }
 }
+
+

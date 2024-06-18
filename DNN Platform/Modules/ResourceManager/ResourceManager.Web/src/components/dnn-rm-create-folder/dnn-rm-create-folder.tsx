@@ -143,8 +143,7 @@ export class DnnRmCreateFolder {
         </div>
         <div class="controls">
           <dnn-button
-            type="primary"
-            reversed
+            type="secondary"
             onClick={() => this.handleCancel()}
           >
             {state.localization.Cancel}

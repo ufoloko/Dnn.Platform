@@ -16,32 +16,23 @@
     border: none;
     background-color: transparent;
     transition: all 100ms ease-in-out;
-    width: calc(110px + 2em);
+    width: calc(16% - 1em);
     justify-content: flex-end;
     position: relative;
-    &:hover, &:focus{
-      transform: scale3d(1.1, 1.1, 1.1);
-      .radio{
-        opacity: 1;
-      }
-    }
-    .radio{
-      position: absolute;
-      top:0;
-      left:-16px;
-      opacity: 0;
-      transition: all 100ms ease-in-out;
-      &.selected{
-        opacity: 1;
-      }
+    padding: 10px;
+    &:hover{
+      background-color: #eee;
     }
     img{
-      width: 110px;
-      max-height: 110px;
+      width: 100%;
       margin: auto;
     }
     .item-name{
       line-break: anywhere;
+    }
+    &.selected{
+      background-color: #d7edf9;
+      border-radius: 10px;
     }
   }
 }

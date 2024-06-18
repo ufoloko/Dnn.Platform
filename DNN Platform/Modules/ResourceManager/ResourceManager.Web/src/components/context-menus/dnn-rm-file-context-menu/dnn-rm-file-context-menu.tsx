@@ -16,7 +16,7 @@ export class DnnRmFileContextMenu {
     return (
       <Host>
         {state.currentItems?.hasAddFilesPermission && state.currentItems.hasDeletePermission &&
-          <dnn-action-edit-item item={this.item} />
+          <dnn-action-edit-item class="light-button" item={this.item} />
         }
         {state.currentItems?.hasDeletePermission &&
           [

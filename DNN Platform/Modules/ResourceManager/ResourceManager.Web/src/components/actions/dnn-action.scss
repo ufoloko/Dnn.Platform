@@ -1,16 +1,36 @@
 :host{
     display: inline-flex;
-}
-
-button{
-    cursor: pointer;
-    border: none;
-    background-color: transparent;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    svg{
-        fill: var(--dnn-color-primary);
-    }
+    button{
+      cursor: pointer;
+      border: none;
+      background-color: transparent;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      border-radius: 20px;
+      width: 100%;
+      svg{
+          fill: #3c7a9a;
+      }
+      svg:first-child{
+          background-color: #0b1c24;
+          padding: 5px;
+          border-radius: 20px;
+        }
+        span{
+          padding:0 10px;
+          font-weight: bold;
+          color: #3c7a9a;
+        }
+        &:hover{
+          background-color: #0b1c24;
+          svg{
+            fill:#FFF;
+          }
+          span{
+            color:#FFF;
+          }
+        }
+  }
 }

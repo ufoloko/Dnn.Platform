@@ -95,8 +95,7 @@ export class DnnRmDeleteItems {
         }
         <div class="controls">
           <dnn-button
-            type="primary"
-            reversed
+            type="secondary"
             disabled={this.deleting}
             onClick={() => this.closeModal()}
           >

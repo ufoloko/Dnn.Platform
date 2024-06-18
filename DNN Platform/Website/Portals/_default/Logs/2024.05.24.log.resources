@@ -1,0 +1,39 @@
+2024-05-24 05:08:18.183-05:00 [DESKTOP-FHPRK9S][D:2][T:5][ERROR] DotNetNuke.Services.Localization.LocalizationProvider - System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en DotNetNuke.Common.Globals.get_Status() en C:\Websites\Dnn.Platform\DNN Platform\Library\Common\Globals.cs:línea 420
+   en DotNetNuke.Services.Localization.LocalizationProvider.TryGetStringInternal(String key, String userLanguage, String resourceFile, PortalSettings portalSettings, String& resourceValue) en C:\Websites\Dnn.Platform\DNN Platform\Library\Services\Localization\LocalizationProvider.cs:línea 525
+2024-05-24 05:08:18.386-05:00 [DESKTOP-FHPRK9S][D:2][T:5][ERROR] DotNetNuke.Services.Localization.LocalizationProvider - System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en DotNetNuke.Common.Globals.get_Status() en C:\Websites\Dnn.Platform\DNN Platform\Library\Common\Globals.cs:línea 420
+   en DotNetNuke.Services.Localization.LocalizationProvider.TryGetStringInternal(String key, String userLanguage, String resourceFile, PortalSettings portalSettings, String& resourceValue) en C:\Websites\Dnn.Platform\DNN Platform\Library\Services\Localization\LocalizationProvider.cs:línea 525
+2024-05-24 05:08:18.902-05:00 [DESKTOP-FHPRK9S][D:2][T:5][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en DotNetNuke.Web.UI.Utilities.ApplySkin(Control targetControl, String fallBackEmbeddedSkinName, String controlName, String webControlSkinSubFolderName) en C:\Websites\Dnn.Platform\DNN Platform\DotNetNuke.Web\UI\Utilities.cs:línea 116
+2024-05-24 05:08:18.933-05:00 [DESKTOP-FHPRK9S][D:2][T:5][ERROR] DotNetNuke.Services.Exceptions.BasePortalException - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: provider
+   en Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   en DotNetNuke.Application.DotNetNukeContext.get_Current() en C:\Websites\Dnn.Platform\DNN Platform\Library\Application\DotNetNukeContext.cs:línea 64
+   en DotNetNuke.Services.Exceptions.BasePortalException.InitializePrivateVariables() en C:\Websites\Dnn.Platform\DNN Platform\Library\Services\Exceptions\BasePortalException.cs:línea 146
+2024-05-24 05:29:40.183-05:00 [DESKTOP-FHPRK9S][D:3][T:24][ERROR] DotNetNuke.Services.Localization.LocalizationProvider - System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en DotNetNuke.Common.Globals.get_Status() en C:\Websites\Dnn.Platform\DNN Platform\Library\Common\Globals.cs:línea 420
+   en DotNetNuke.Services.Localization.LocalizationProvider.TryGetStringInternal(String key, String userLanguage, String resourceFile, PortalSettings portalSettings, String& resourceValue) en C:\Websites\Dnn.Platform\DNN Platform\Library\Services\Localization\LocalizationProvider.cs:línea 525
+2024-05-24 05:29:40.230-05:00 [DESKTOP-FHPRK9S][D:3][T:24][ERROR] DotNetNuke.Services.Localization.LocalizationProvider - System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en DotNetNuke.Common.Globals.get_Status() en C:\Websites\Dnn.Platform\DNN Platform\Library\Common\Globals.cs:línea 420
+   en DotNetNuke.Services.Localization.LocalizationProvider.TryGetStringInternal(String key, String userLanguage, String resourceFile, PortalSettings portalSettings, String& resourceValue) en C:\Websites\Dnn.Platform\DNN Platform\Library\Services\Localization\LocalizationProvider.cs:línea 525
+2024-05-24 05:29:40.745-05:00 [DESKTOP-FHPRK9S][D:3][T:24][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en DotNetNuke.Web.UI.Utilities.ApplySkin(Control targetControl, String fallBackEmbeddedSkinName, String controlName, String webControlSkinSubFolderName) en C:\Websites\Dnn.Platform\DNN Platform\DotNetNuke.Web\UI\Utilities.cs:línea 116
+2024-05-24 05:29:40.777-05:00 [DESKTOP-FHPRK9S][D:3][T:24][ERROR] DotNetNuke.Services.Exceptions.BasePortalException - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: provider
+   en Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   en DotNetNuke.Application.DotNetNukeContext.get_Current() en C:\Websites\Dnn.Platform\DNN Platform\Library\Application\DotNetNukeContext.cs:línea 64
+   en DotNetNuke.Services.Exceptions.BasePortalException.InitializePrivateVariables() en C:\Websites\Dnn.Platform\DNN Platform\Library\Services\Exceptions\BasePortalException.cs:línea 146
+2024-05-24 05:36:46.386-05:00 [DESKTOP-FHPRK9S][D:4][T:11][ERROR] DotNetNuke.Services.Localization.LocalizationProvider - System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en DotNetNuke.Common.Globals.get_Status() en C:\Websites\Dnn.Platform\DNN Platform\Library\Common\Globals.cs:línea 420
+   en DotNetNuke.Services.Localization.LocalizationProvider.TryGetStringInternal(String key, String userLanguage, String resourceFile, PortalSettings portalSettings, String& resourceValue) en C:\Websites\Dnn.Platform\DNN Platform\Library\Services\Localization\LocalizationProvider.cs:línea 525
+2024-05-24 05:36:46.433-05:00 [DESKTOP-FHPRK9S][D:4][T:11][ERROR] DotNetNuke.Services.Localization.LocalizationProvider - System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en DotNetNuke.Common.Globals.get_Status() en C:\Websites\Dnn.Platform\DNN Platform\Library\Common\Globals.cs:línea 420
+   en DotNetNuke.Services.Localization.LocalizationProvider.TryGetStringInternal(String key, String userLanguage, String resourceFile, PortalSettings portalSettings, String& resourceValue) en C:\Websites\Dnn.Platform\DNN Platform\Library\Services\Localization\LocalizationProvider.cs:línea 525
+2024-05-24 05:36:46.964-05:00 [DESKTOP-FHPRK9S][D:4][T:11][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en DotNetNuke.Web.UI.Utilities.ApplySkin(Control targetControl, String fallBackEmbeddedSkinName, String controlName, String webControlSkinSubFolderName) en C:\Websites\Dnn.Platform\DNN Platform\DotNetNuke.Web\UI\Utilities.cs:línea 116
+2024-05-24 05:36:46.995-05:00 [DESKTOP-FHPRK9S][D:4][T:11][ERROR] DotNetNuke.Services.Exceptions.BasePortalException - System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: provider
+   en Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   en DotNetNuke.Application.DotNetNukeContext.get_Current() en C:\Websites\Dnn.Platform\DNN Platform\Library\Application\DotNetNukeContext.cs:línea 64
+   en DotNetNuke.Services.Exceptions.BasePortalException.InitializePrivateVariables() en C:\Websites\Dnn.Platform\DNN Platform\Library\Services\Exceptions\BasePortalException.cs:línea 146
